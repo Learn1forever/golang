@@ -1,9 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strings"
+)
 
 func main() {
-	var a string
-	a = "hello world!"
-	fmt.Printf("%s", a)
+	var str1 string = "This is nieda"
+	fmt.Printf("%s", strings.Split(str1, " "))
 }
